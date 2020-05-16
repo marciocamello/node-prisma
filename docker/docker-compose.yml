@@ -10,8 +10,14 @@ services:
     tty: true
     volumes: 
       - ../:/app
-  mongodb:
-    image: mongo:latest
+  mariadb:
+    image: mariadb:latest
     container_name: node-prisma-db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: q1w2e3r4
+      MYSQL_DATABASE: nodeprisma
+      MYSQL_USER: root
+      MYSQL_PASSWORD: q1w2e3r4
     ports: 
-      - 27017:27017
+      - 3306:3306
