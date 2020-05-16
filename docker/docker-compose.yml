@@ -1,0 +1,17 @@
+version: "2"
+services: 
+  app:
+    image: node:12
+    container_name: node-prisma
+    working_dir: /app
+    command: "yarn dev"
+    ports: 
+      - 3333:3333
+    tty: true
+    volumes: 
+      - ../:/app
+  mongodb:
+    image: mongo:latest
+    container_name: node-prisma-db
+    ports: 
+      - 27017:27017
