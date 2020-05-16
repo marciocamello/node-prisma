@@ -8,7 +8,7 @@
 - Prisma 2
 - JWT
 
-:blue_book:
+:blue_book: Refs
 
 https://www.typescriptlang.org/docs/home/
 https://www.prisma.io/docs
