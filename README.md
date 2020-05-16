@@ -10,6 +10,6 @@
 
 :blue_book: Refs
 
-https://www.typescriptlang.org/docs/home/
-https://www.prisma.io/docs
-https://expressjs.com/en/4x/api.html
+- https://www.typescriptlang.org/docs/home/
+- https://www.prisma.io/docs
+- https://expressjs.com/en/4x/api.html
