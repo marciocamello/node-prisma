@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon src/server.ts",
     "build": "sucrase ./src -d ./dist --transforms typescript,imports",
-    "start": "npm run build && node ./dist/server.js"
+    "start": "node ./dist/server.js"
   },
   "devDependencies": {
     "@prisma/cli": "^2.0.0-beta.5",
